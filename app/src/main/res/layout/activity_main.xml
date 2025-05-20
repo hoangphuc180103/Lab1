@@ -46,6 +46,7 @@
         <EditText
             android:layout_width="match_parent"
             android:layout_height="48dp"
+            android:id="@+id/edtEmail"
             android:hint="Email or Phone"
             android:textColorHint="#FFFFFF"
             android:textColor="#FFFFFF"
@@ -68,6 +69,7 @@
         <EditText
             android:layout_width="match_parent"
             android:layout_height="48dp"
+            android:id="@+id/edtPassword"
             android:hint="Password"
             android:textColorHint="#FFFFFF"
             android:textColor="#FFFFFF"
@@ -86,6 +88,7 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:id="@+id/btnLogin"
         android:text="LOG IN"
         android:background="#334d84"
         android:textColor="#FFFFFF"
